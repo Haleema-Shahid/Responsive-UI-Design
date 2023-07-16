@@ -128,7 +128,8 @@ body {
 }
 
 .landing-text h1 {
-    font-size: 4.25rem;
+    /* font-size: 4.25rem; */
+    font-size: 425%;
 
     font-family: 'Inter', sans-serif;
     color: white;
@@ -1043,6 +1044,7 @@ form {
 }
 
 @media screen and (max-width:995px) {
+
     form {
         flex-direction: column;
         flex-wrap: wrap;
@@ -1071,6 +1073,228 @@ form {
 
     .qualities div {
         width: 22%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .landing-screen {
+        background: linear-gradient(to right,
+                #2B63D9 0%,
+                #2B63D9 28%,
+                #3971E7 28%,
+                #3971E7 100%);
+    }
+
+    .landing-graphics img {
+        width: 86%;
+        margin-left: 2.25%;
+        margin-right: 2.25%;
+    }
+
+    .landing-text {
+        margin-top: 5%;
+        margin-left: 0;
+        padding-left: 7.5%;
+    }
+
+    .landing-text h1 {
+        font-size: 230%;
+    }
+
+    .landing-text p {
+        font-size: 100%;
+        width: 100%;
+
+    }
+
+    .supports-div {
+        margin-top: 20%;
+        padding-bottom: 10%;
+        width: 100%;
+    }
+
+    .supports-logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .supports-logos img {
+        width: 40%;
+        margin-top: 3%;
+        height: auto;
+    }
+
+    .features-grid {
+        flex-direction: column;
+    }
+
+    .feature-box {
+        width: 100%;
+    }
+
+    .feature-box p {
+        width: 100%;
+    }
+
+    .customer-review {
+
+        padding: 3%;
+    }
+
+    .customer {
+        margin-top: 5%;
+    }
+
+    .customer-review img {
+        width: 50%;
+    }
+
+    .customer-review .review {
+        font-size: 111%;
+    }
+
+    .customer-name {
+        font-size: 100%;
+
+    }
+
+    .customer-designation {
+        font-size: 80%;
+    }
+
+    .step-box {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .step-box img {
+        width: 12.5%;
+    }
+
+    .feature-heading {
+        font-size: 180%;
+    }
+
+    .form-topline {
+        margin-top: 20%;
+    }
+
+    .form-heading {
+        font-size: 180%;
+    }
+
+    .qualities {
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+    .qualities div {
+        width: 40%;
+    }
+
+    .email {
+        width: 70%;
+    }
+
+    .footer-container {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .company-summary {
+        order: 1;
+        width: 100%
+    }
+
+    .company-summary p {
+        font-size: 100%;
+    }
+
+    .button-column {
+        order: 2;
+    }
+
+    .button-column h5 {
+        margin-bottom: 0;
+    }
+
+    .button-column button {
+        margin-top: 10%;
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .email-notif {
+        margin-top: 20%;
+        order: 3;
+        width: 100%;
+    }
+
+    .email-notif p {
+        font-size: 100%;
+    }
+
+    .email-notif h5 {
+        margin-bottom: 0;
+    }
+
+    .email-notif {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .email-notif form {
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+
+        margin-right: 0;
+
+        align-self: center;
+        justify-self: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email-notif form .submit {
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 3%;
+        text-align: center;
+        font-size: 70%;
+
+    }
+
+    .email-notif .email {
+        margin-top: 0;
+        width: 100%;
+        padding: 3%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .last-line {
+        flex-direction: column;
+    }
+
+    .social-media-logos {
+        width: 100%;
+    }
+
+    .social-media-logos img {
+        width: 5%;
     }
 }
 
