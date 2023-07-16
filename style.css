@@ -241,6 +241,8 @@ body {
     align-items: center;
     /* padding-bottom: 5%; */
 
+    padding-top: 10%;
+
 
 
 }
@@ -435,6 +437,8 @@ body {
     margin-top: 5%;
     padding-bottom: 2%;
     padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
 
 
 }
@@ -829,6 +833,7 @@ form {
 
     }
 
+
     .landing-graphics {
         /* width: 33%; */
         width: 100%;
@@ -1098,6 +1103,10 @@ form {
         padding-left: 7.5%;
     }
 
+    .landing-text button {
+        width: 100%;
+    }
+
     .landing-text h1 {
         font-size: 230%;
     }
@@ -1148,14 +1157,30 @@ form {
 
     .customer {
         margin-top: 5%;
+        width: 100%;
     }
 
-    .customer-review img {
-        width: 50%;
+    .customer-info {
+        justify-content: start;
+        align-items: start;
+        margin-left: 3%
+    }
+
+    .customer-designation {
+        margin-top: 3%;
+    }
+
+    .customer-review .profile-picture {
+        width: 20%;
+    }
+
+    .customer-review .company-logo {
+        width: 44%;
     }
 
     .customer-review .review {
         font-size: 111%;
+        width: 100%;
     }
 
     .customer-name {
@@ -1190,17 +1215,28 @@ form {
     }
 
     .qualities {
+        width: 85%;
         flex-direction: row;
         justify-content: start;
         flex-wrap: wrap;
+        padding-left: 15%
     }
 
     .qualities div {
         width: 40%;
+        justify-content: flex-start;
     }
 
     .email {
-        width: 70%;
+        width: 82.5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 100%
+    }
+
+    .submit {
+        width: 85%;
+        padding: 3%;
     }
 
     .footer-container {
@@ -1296,6 +1332,81 @@ form {
     .social-media-logos img {
         width: 5%;
     }
+
+    .blog-box {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .blog-box .profile-picture {
+        width: 30%;
+    }
+
+    .right-split {
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .right-split img {
+        width: 100%;
+    }
+
+    .landing-text p {
+        line-height: 128%;
+        font-size: 108%;
+    }
+
+    .features-heading {
+        font-size: 155%;
+    }
+
+    .form-heading {
+        font-size: 155%;
+    }
+
+    .features-description {
+        font-size: 100%;
+        width: 93%;
+        margin-bottom: 0;
+    }
+
+    .feature-box {
+        margin-top: 15%;
+    }
+
+    .feature-heading {
+        font-size: 128%;
+    }
+
+    .step-box {
+        margin-top: 15%;
+
+    }
+
+    .step-box .feature-box {
+        margin-top: 3%;
+    }
+
+    .step-box .feature-logo {
+        margin: 0;
+    }
+
+
+}
+
+@media screen and (max-width:375px) {
+
+    .login-signup {
+        width: 0;
+    }
+
+
+
+    .landing-text h1 {
+        font-size: 211%;
+    }
+
 }
 
 @media screen and (max-width:1842px) {
