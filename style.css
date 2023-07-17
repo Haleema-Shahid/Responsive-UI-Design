@@ -683,7 +683,7 @@ form {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: unset;
     align-items: center;
     width: 20%;
     height: auto;
@@ -724,10 +724,11 @@ form {
 }
 
 .email-notif form .submit {
-    width: 20%;
-    height: 17.5%;
+    width: 59px;
+    height: 51px;
     font-size: 80%;
     padding: 1%;
+    margin-bottom: 20%;
 }
 
 .email-notif form .email {
@@ -1310,6 +1311,10 @@ form {
         text-align: center;
         font-size: 70%;
 
+        margin-bottom: 0%;
+        width: 20%;
+        height: 17.5%;
+
     }
 
     .email-notif .email {
@@ -1423,5 +1428,11 @@ form {
     .review {
         text-align: left;
         font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .landing-text h1 {
+        font-size: 242%
     }
 }
